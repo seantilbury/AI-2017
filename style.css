@@ -1,0 +1,118 @@
+/*
+Theme Name: Alasdairs Ideas 2017
+Template: twentysixteen
+Author: Sean Tilbury
+Description: child theme of twentysixteen, customised for Alasdair Welsh
+Version: 1.0.0.1491820908
+Updated: 2017-04-10 10:41:48
+
+*/
+.sub-head {display:flex; margin-top: 1.7em}
+.more-info {margin: 0 0.5em 0 0.5em}
+.more-info a {color :#686868}
+.more-info a:hover {color :red}
+
+.blog-link {}
+.blog-link a {color: #686868}
+.blog-link a:hover {color :red}
+
+.site-content {padding: 0 1.5%!important }
+
+body {background: #fff; font-family: Montserrat, "Helvetica Neue", sans-serif;} 
+/*completely WHITE BACKGROUND*/
+
+.wp-tiles-byline{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wp-tiles-byline {/*background-color: rgba(255, 255, 255, 0.3)!important; color: 
+black!important;height:15%!important;*/ font-family: Montserrat, "Helvetica Neue", sans-serif;  }
+
+h4.wp-tiles-byline-title {font-size:0.95rem!important; text-transform:none!important;font-weight:normal!important; text-align:center;   letter-spacing: 0em!important; }
+h4.wp-tiles-byline-title:hover {color:red!important }
+
+wp-tiles-byline-title :hover {color: red!important }
+
+.site-branding .site-title a:hover, .site-branding .site-title a:focus {color:red;} /*mouseover colour */
+
+.entry-content h1 {font-family: Montserrat, "Helvetica Neue", sans-serif;  font-size:5rem}
+
+ul#menu-footer-menu { display: flex; margin: 0 auto; list-style-type: none;}
+
+#menu-footer-menu li {padding: 0 1em 0 1em; }
+
+.no-sidebar .entry-header, .no-sidebar .entry-content, .no-sidebar .entry-summary, .no-sidebar .entry-footer, .no-sidebar .comments-area, .no-sidebar .image-navigation, .no-sidebar .post-navigation, .no-sidebar .pagination, .no-sidebar .page-header, .no-sidebar .page-content, .no-sidebar .content-bottom-widgets {margin-left:0; margin-right:0;} /*makes full width*/
+
+.entry-title {display: none; font-family: Arial Black,Arial Bold,Gadget,sans-serif; } /*hides page title*/
+
+.site-description {display:block!important; font-size:1.0em; font-family: Montserrat, "Helvetica Neue", sans-serif;line-height: 1.75; margin: 0 } /*sub head size*/
+
+.site-description a {color:black}
+.site-description a:hover {color:red}
+
+.site-branding .site-title a {font-size:3em;     padding-left: 0.25em;} /*header text /logo size*/
+
+.content-copy {padding: 0 1em 0 1em;} /*  */
+
+.emailheader {   
+		margin: 0 0 0 0.5em;
+    		font-family: Montserrat, "Helvetica Neue", sans-serif;
+    		font-size: 1.0rem;
+		
+}
+.emailheader a {color:black}
+.emailheader a:hover {color:red}
+
+.site {margin:21px;} /*page border*/
+
+@media screen and (max-width: 44.375em){
+.site-description{display:block;}
+#tile-1933 {margin: 0 0 0 3em;}
+}
+
+ @media screen and (max-width: 800px ) {
+.sub-head {flex-direction: column}
+.emailheader {margin: 0 0 0 0 ;}
+.site-header {padding: 1.625em 0.6923%;}
+.site-branding .site-title a {font-size:2em; padding-left:0em;}
+.site-description { margin: 0; line-height:1.75}
+.entry-content h1 {font-size: 2em}
+.more-info {margin: 0 0 0 0}
+	
+#menu-footer-menu li { padding: 0 0.25em 0 0.25em;}	
+}
+
+ @media screen and (max-width: 600px ) {
+.emailheader {}
+.site-branding .site-title a {font-size:2em; padding-left:0em;}
+.site-description { margin: 0em 0 0;}
+.entry-content h1 {font-size: 2em}
+
+}
+
+
+@media screen and (max-width: 568px ) {
+.site-header {padding: 1.625em 0.6923%;}
+.site-branding .site-title a {font-size:2em; padding-left:0em;}
+.site-description { margin: 0em 0 0;}
+.entry-content h1 {font-size: 2em}
+.emailheader {}
+.more-info {margin-top: 0em}
+.blog-link {margin-top: 0em}
+		
+}
+
+@media screen and (max-width: 400px ) {
+.site-header {padding: 1.625em 0.6923%;}
+.site-branding .site-title a {font-size:2em; padding-left:0em;}
+.site-description { margin: 0em 0 0;}
+.entry-content h1 {font-size: 2em}
+.emailheader {}
+.more-info {margin-top: 0em}
+.blog-link {margin-top: 0em}
+		
+}
+
+}
